@@ -3,16 +3,16 @@ use cmake as build system
 
 # project tree
 basePrj/  
-|---- CMakeLists.txt  
-|---- libs  
-│     ---- hello  
-│     ---- CMakeLists.txt  
-│     ---- inc  
-│          ---- hello.h  
-│     ---- src  
-│          ---- hello.c  
-|---- src  
-      ---- main.c  
+|------ CMakeLists.txt  
+|------ libs  
+|       ------  hello  
+│       ------  CMakeLists.txt  
+│       ------  inc  
+|               ------ hello.h  
+│       ------  src  
+│               ------ hello.c  
+|------ src  
+        ------ main.c  
 
 // top-level CMake file  
 cmake_minimum_required(VERSION 3.16.4)  
