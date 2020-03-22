@@ -5,14 +5,14 @@ use cmake as build system
 basePrj/  
 |------ CMakeLists.txt  
 |------ libs  
-|       *------  hello  
-│       *------  CMakeLists.txt  
-│       *------  inc  
-|               **------ hello.h  
-│       *------  src  
-│               **------ hello.c  
+|       <p>------  hello</p>  
+│       <p>------  CMakeLists.txt</p>  
+│       <p>------  inc</p>  
+|               <p>------ hello.h</p>  
+│       <p>------  src</p>  
+│               <p>------ hello.c</p>  
 |------ src  
-        *------ main.c  
+        <p>------ main.c</p>  
 
 // top-level CMake file  
 cmake_minimum_required(VERSION 3.16.4)  
