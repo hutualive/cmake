@@ -2,17 +2,17 @@
 use cmake as build system
 
 # project tree
-basePrj\/  
-\├── CMakeLists.txt  
-\├── libs  
-\│   └── hello  
-\│       ├── CMakeLists.txt  
-\│       ├── inc  
-\│       │   └── hello.h  
-\│       └── src  
-\│           └── hello.c  
-\└── src  
-\    └── main.c  
+basePrj/  
+├── CMakeLists.txt  
+├── libs  
+│   └── hello  
+│       ├── CMakeLists.txt  
+│       ├── inc  
+│       │   └── hello.h  
+│       └── src  
+│           └── hello.c  
+└── src  
+    └── main.c  
 
 // top-level CMake file  
 cmake_minimum_required(VERSION 3.16.4)  
@@ -42,7 +42,7 @@ set(CMAKE_SYSTEM_PROCESSOR arm)
 set(CMAKE_CROSSCOMPILING 1)  
 
 // toolchain
-set(GCC_PATH ${TOOLCHAIN_PAtH}/gcc-arm-none-eabi-9-2019-q4-major/bin)  
+set(GCC_PATH ${TOOLCHAIN_PATH}/gcc-arm-none-eabi-9-2019-q4-major/bin)  
 set(CMAKE_C_COMPILER ${GCC_PATH}/arm-none-eabi-gcc CACHE PATH "" FORCE)  
 
 // compiler flags for target
