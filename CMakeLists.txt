@@ -6,7 +6,7 @@ set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR arm)
 set(CMAKE_CROSSCOMPILING 1)
 
-set(GCC_PATH ~/gcc-arm-none-eabi-9-2019-q4-major/bin)
+set(GCC_PATH ${TOOLCHAIN_PATH}/gcc-arm-none-eabi-9-2019-q4-major/bin)
 
 set(CMAKE_C_COMPILER ${GCC_PATH}/arm-none-eabi-gcc CACHE PATH "" FORCE)
 set(CMAKE_C_OBJCOPY ${GCC_PATH}/arm-none-eabi-objcopy CACHE PATH "" FORCE)
