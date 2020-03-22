@@ -2,18 +2,19 @@
 use cmake as build system
 
 # project tree
+```python
 basePrj/  
-|------ CMakeLists.txt  
-|------ libs  
-|       <p>------  hello</p>  
-│       <p>------  CMakeLists.txt</p>  
-│       <p>------  inc</p>  
-|               <p>------ hello.h</p>  
-│       <p>------  src</p>  
-│               <p>------ hello.c</p>  
-|------ src  
-        <p>------ main.c</p>  
-
+|---- CMakeLists.txt  
+|---- libs  
+|     ----  hello  
+│     ----  CMakeLists.txt  
+│     ----  inc  
+            ---- hello.h  
+      ----  src  
+│           ---- hello.c  
+|---- src  
+      ---- main.c  
+```
 // top-level CMake file  
 cmake_minimum_required(VERSION 3.16.4)  
 
